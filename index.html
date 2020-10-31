@@ -1,0 +1,406 @@
+<style>
+	/*вот так ставятся комментарии внутри style*/
+
+	/*head*/
+	.header {
+		width: 100%;
+		height: 70px;
+		background-color: #bdc3d9;
+		font-family: "Arial"
+	}
+	.header-center {
+		width: 1100px;
+		height: 70px;
+		margin: 0 auto;
+		background-color: none;
+		display: flex
+	}
+	.box-logo {
+		width: 200px;
+		height: 100%;
+		background-color: none;
+		border: none;
+	}
+	.box-links {
+		width: 750px;
+		height: 100%;
+		background-color: none;
+		border: none;
+		display: flex;
+	}
+	.box-buttons {
+		width: 150px;
+		height: 100%;
+		background-color: none;
+		border: none;
+	}
+
+	/*main*/
+	/*1уровень*/
+	.charts-container {
+		width: 1100px;
+		height: 900px;
+		background-color: white;
+		margin: 0 auto;
+		padding-top: 10px;
+		font-family: "Arial"
+	}
+
+	/*2уровень*/
+	.charts-sort {
+		width: 100%;
+		height: 90px;
+		background-color: white;
+		display: flex
+
+	}
+	.charts-up {
+		width: 100%;
+		height: 100px;
+		background-color: #a2e0af;
+		margin-top: 10px;
+		border-radius: 5px;
+		display: flex
+	}
+	.charts-down {
+		width: 100%;
+		height: 100px;
+		background-color: #de9e9e;
+		margin-top: 10px;
+		border-radius: 5px;
+		display: flex
+	}
+	.charts-new {
+		width: 100%;
+		height: 100px;
+		background-color: #f0e8a5;
+		margin-top: 10px;
+		border-radius: 5px;
+		display: flex
+	}
+
+	/*3 уровень*/
+	.charts-rank {
+		width: 130px;
+		height: 100%;
+		background-color: none;
+		border: none;
+	}
+	.charts-info {
+		width: 570px;
+		height: 100%;
+		background-color: none;
+		border: none;
+	}
+	.charts-button {
+		width: 300px;
+		height: 100%;
+		background-color: none;
+		border: none;
+	}
+	.charts-img {
+		width: 100px;
+		height: 100%;
+		background-color: none;
+		border:none;
+	}
+
+	/*наполнение*/
+	.links-text {
+		color: white;
+		font-size: 18px;
+		margin-left: 55px;
+		margin-top: 24px;
+	}
+	.links-text-red {
+		color: red;
+		font-size: 18px;
+		margin-left: 55px;
+		margin-top: 24px;
+	}
+	.links-text-yellow {
+		color: yellow;
+		font-size: 18px;
+		margin-left: 55px;
+		margin-top: 24px;
+	}
+	.btn-yellow {
+		background-color: #bdb83a;
+		width: 150px;
+		height: 40px;
+		color: white;
+		font-size: 17px;
+		border-radius: 5px;
+		margin-right: 5px;
+		margin-top: 20px;
+		border: none;
+	}
+	.btn-red {
+		background-color: #c22121;
+		width: 150px;
+		height: 40px;
+		color: white;
+		font-size: 17px;
+		border-radius: 5px;
+		margin-right: 5px;
+		margin-top: 20px;
+		border: none;
+	}
+	.btn-green {
+		background-color: #249628;
+		width: 150px;
+		height: 40px;
+		color: white;
+		font-size: 17px;
+		border-radius: 5px;
+		margin-right: 5px;
+		margin-top: 20px;
+		border: none;
+	}
+	.btn-purple {
+		width: 150px;
+		height: 40px;
+		background-color: #914094;
+		color: white;
+		font-size: 17px;
+		border-radius: 5px;
+		margin-right: 5px; 
+		margin-top: 20px;
+		border: none;
+	}
+	.btn-blue {
+		width: 170px;
+		height: 40px;
+		background-color: #1349ad;
+		color: white;
+		font-size: 17px;
+		border-radius: 5px;
+		margin-right: 5px; 
+		margin-top: 20px;
+		border: none;
+	}
+	.cover-art {
+		width: 100%;
+		height: 100%;
+	}
+	.song-name {
+		color: #444b94
+	}
+	.author {
+		color: #7d7d7d
+	}
+	.rank {
+		text-align: center
+	}
+	.status-up {
+		color: #0fab55;
+		text-align: center;
+	}
+	.status-down {
+		color: #9e3434;
+		text-align: center;
+	}
+	.status-new {
+		color: #a8b053;
+		text-align: center;
+	}
+</style>
+</style>
+<!-- 1 уровень. шапка -->
+<div class="header">
+	<!-- 2 уровень. выравнивание шапки -->
+	<div class="header-center">
+		<!-- 3 уровень -->
+		<!-- лого -->
+		<div class="box-logo">
+			<img src="https://cdn.discordapp.com/attachments/755702043997634570/771293702752567316/1280px-Billboard_logo.svg.png" style="width: 100%;
+			height: 70%; margin-top: 10px">
+		</div>
+		<!-- ссылки -->
+		<div class="box-links">
+			<a href="" class="links-text">CHARTS</a>
+			<a href="" class="links-text">NEWS</a>
+			<a href="" class="links-text-red">VIDEO</a>
+			<a href="" class="links-text-yellow">PHOTOS</a>
+		</div>
+		<!-- кнопка подписаться -->
+		<div class="box-buttons">
+			<button class="btn-purple">SUBSCRIBE</button>
+		</div>
+	</div>
+</div>
+
+<!-- 1 уровень. чат-контейнер -->
+<div class="charts-container">
+	<!-- 2 уровень -->
+	<!-- для кнопок сортировки -->
+	<div class="charts-sort">
+		<button class="btn-yellow">THIS WEEK</button>
+		<button class="btn-red"> LAST WEEK</button>
+		<button class="btn-green">PEAK</button>
+		<button class="btn-purple">DURATION</button>
+	</div>
+	<!--все треки в чарте -->
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 class="rank">1</h1>
+			<h4 class="status-up">Up</h4>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h2 class="song-name">Blew My High</h2>
+			<h4 class="author">Chief Keef</h4>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="btn-blue">Воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b9630f84-1eef-40c3-a174-357a97b0f4f0/d6nza32-dcc9f7c0-e66d-46e4-a852-8f3ee77918eb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYjk2MzBmODQtMWVlZi00MGMzLWExNzQtMzU3YTk3YjBmNGYwXC9kNm56YTMyLWRjYzlmN2MwLWU2NmQtNDZlNC1hODUyLThmM2VlNzc5MThlYi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.3NoIvGICgSzw1CBkIrAbW-CKzZWiWVh-5VqTjkCGtYc" class="cover-art">
+		</div>
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 class="rank">2</h1>
+			<h4 class="status-new">New</h4>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h2 class="song-name">2 Much</h2>
+			<h4 class="author">Chief Keef</h4>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="btn-green">Купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="https://static.vibe.com/files/article_images/B2-compressed.jpg" class="cover-art">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 class="rank">3</h1>
+			<h4 class="status-new">New</h4>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h2 class="song-name">What You Had</h2>
+			<h4 class="author">Capo</h4>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="btn-green">Купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="https://i.redd.it/k1xaqdiailjx.jpg" class="cover-art">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 class="rank">4</h1>
+			<h4 class="status-up">Up</h4>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h2 class="song-name">Glory Bridge</h2>
+			<h4 class="author">Chief Keef featuring A Boogie Wit da Hoodie</h4>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="btn-green">Купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="https://upload.wikimedia.org/wikipedia/en/a/a0/ChiefKeefDedication2017.jpg" class="cover-art">
+		</div>		
+	</div>
+
+	<!-- трек down -->
+	<div class="charts-down">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 class="rank">5</h1>
+			<h4 class="status-down">Down</h4>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h2 class="song-name">When They See Us</h2>
+			<h4 class="author">Capo</h4>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="btn-green">Купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="https://m.media-amazon.com/images/I/813QKKzD1PL._SS500_.jpg" class="cover-art">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 class="rank">6</h1>
+			<h4 class="status-new">New</h4>
+		</div >
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h2 class="song-name">Hell Yea</h2>
+			<h4 class="author">FBG Duck</h4>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="btn-blue">Воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="https://m.media-amazon.com/images/I/61q1iI-2-tL._SS500_.jpg" class="cover-art">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 class="rank">7</h1>
+			<h4 class="status-up">Up</h4>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h2 class="song-name">Wid Us</h2>
+			<h4 class="author">Capo</h4>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="btn-blue">Воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="https://m.media-amazon.com/images/I/81GhmkGfszL._SS500_.jpg" class="cover-art">
+		</div>		
+	</div>
+</div>
+<!--  -->
